@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import backgroundImage from '../../img/fullflixImage.png';
 
 export const MainContrainer = styled.div`
   img {

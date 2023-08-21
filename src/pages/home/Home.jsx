@@ -1,8 +1,7 @@
-import { Link } from 'react-router-dom';
 import Footer from '../../components/footer/Footer';
 import { useEffect, useState } from 'react';
 import { getList } from '../../api/api';
-import { Grid, MainContrainer, Part1, Part2 } from './Home.style';
+import { Grid, MainContrainer, HomeTitle, HomeImage } from './Home.style';
 import { Card } from '../../components/cards/Card';
 
 function Home() {
@@ -14,11 +13,11 @@ function Home() {
 
   return (
     <MainContrainer>
-      <Part1 />
+      <HomeImage />
 
-      <Part2>
+      <HomeTitle>
         <p>Filmes Populares</p>
-      </Part2>
+      </HomeTitle>
       <Grid>
         {list.map((movie) => (
           <Card key={movie.id} movie={movie} />

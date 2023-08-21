@@ -23,7 +23,7 @@ function Detail() {
             <b>Data de Lançamento:</b> {state.release_date}
           </p>
           <p>
-            <b>Nota:</b> {state.note_average}
+            <b>Nota:</b> {state.vote_average}
           </p>
           <Link to={'/'}>Voltar Para Home </Link>
         </RightSide>

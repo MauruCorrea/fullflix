@@ -8,14 +8,14 @@ export const MainContrainer = styled.div`
   font-size: 2vw;
 `;
 
-export const Part1 = styled.div`
+export const HomeImage = styled.div`
   height: 100vh;
   background-image: url(${backgroundImage});
   background-position: center;
   background-size: cover;
 `;
 
-export const Part2 = styled.div`
+export const HomeTitle = styled.div`
   height: 10vh;
   font-size: 4vh;
   padding-left: 2vw;
